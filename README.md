@@ -102,7 +102,7 @@ bash scripts/filter_dialogue.sh
 
 ### 3) Evaluate Dialogues
 
-Download the following folders/models (e.g., from the provided drive link) and place them under `evaluation/`:
+Download the following folders or models from the [link](https://drive.google.com/drive/folders/1Vv0DTtifNXj3AH0H8HlJewy4vw9e0sbX?usp=drive_link) and place them under `evaluation/`:
 
 * `nli_model`
 * `QuantiDCE`
