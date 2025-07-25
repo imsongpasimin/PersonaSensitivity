@@ -53,7 +53,7 @@ conda activate persona
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt   # (check the filename: requirements vs. requirments)
+pip install -r requirements.txt
 ```
 
 ---
