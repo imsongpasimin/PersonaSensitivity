@@ -151,12 +151,25 @@ The outputs will be saved for subsequent analysis.
 If this repository helps your research, please cite:
 
 ```bibtex
-@inproceedings{jun2025persona,
-  title     = {Exploring Persona Sentiment Sensitivity in Personalized Dialogue Generation},
-  author    = {Jun, Yonghyun and Lee, Hwanhee and Others},
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
-  year      = {2025}
+@inproceedings{jun-lee-2025-exploring,
+    title = "Exploring Persona Sentiment Sensitivity in Personalized Dialogue Generation",
+    author = "Jun, Yonghyun  and
+      Lee, Hwanhee",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.900/",
+    pages = "18384--18402",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Personalized dialogue systems have advanced considerably with the integration of user-specific personas into large language models (LLMs). However, while LLMs can effectively generate personalized responses, the influence of persona sentiment on dialogue quality remains underexplored. In this work, we conduct a large-scale analysis of dialogues generated using a range of polarized user profiles. Our experiments reveal that dialogues involving negatively polarized users tend to overemphasize persona attributes. In contrast, positively polarized profiles yield dialogues that selectively incorporate persona information, resulting in smoother interactions. Furthermore, we find that personas with weak or neutral sentiment generally produce lower-quality dialogues. Motivated by these findings, we propose a dialogue generation approach that explicitly accounts for persona polarity by combining a turn-based generation strategy with a profile ordering mechanism and sentiment-aware prompting. Our study provides new insights into the sensitivity of LLMs to persona sentiment and offers guidance for developing more robust and nuanced personalized dialogue systems."
 }
+
 ```
 
 > Update authors and bibliographic details with the official ACL entry once available.
